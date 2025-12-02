@@ -1,12 +1,12 @@
-import java.util.ArrayList;
+import java.util.List;
 
 public class Safe {
     private int dial;
     private int exactZeroCount = 0;
     private int passOnZeroCount = 0;
-    private ArrayList<String> movements;
+    private List<String> movements;
 
-    public Safe(int dial, ArrayList<String> movements) {
+    public Safe(int dial, List<String> movements) {
         this.dial = dial;
         this.movements = movements;
     }
@@ -15,10 +15,12 @@ public class Safe {
     public int calculateExactZeroes() {
         int tempDial = this.dial;
         this.exactZeroCount = 0;
+
         for (String move : movements) {
             char direction = move.charAt(0);
             int amount = Integer.parseInt(move.substring(1));
 
+            // if the amount > 100 we just get the remainder because we only count the stops on 0
             if (direction == 'L') {
                 amount %= 100;
                 dial = (dial - amount + 100) % 100;
@@ -62,6 +64,7 @@ public class Safe {
                     continue;
                 }
 
+                // 1 olmasinin sebebi  k0 adim ile 0 a gittik o 1 yapar
                 if (amount >= k0) {
                     localPass = 1 + (amount - k0) / 100;
                 }

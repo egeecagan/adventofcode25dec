@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -6,9 +6,8 @@ public class Main {
     }
 
     public static void run() {
-        ReadInput.readFile("input.txt");
-        ArrayList<String> input = ReadInput.getInput();
-        Safe safe = new Safe(50, input);
+        List<String> movements = ReadInput.readFile("input.txt");
+        Safe safe = new Safe(50, movements);          
 
         int exactZeroCount = safe.calculateExactZeroes();
         System.out.println(exactZeroCount);

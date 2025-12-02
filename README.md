@@ -1,6 +1,10 @@
-# adventofcode25dec
-my solutions to 2025 advent of code problems
-- day 1 ✅\
-   solved with java
-   * part 1 (done)
-   * part 2 (done)
+# advent of code 2025 – solutions 🎄
+
+these are my solutions for 2025 december advent of code problems
+
+## day 1 – ✔️ done
+
+**language:** java
+**status:** both parts are solved
+
+> Daha fazla gün geldikçe bu liste güncellenecektir!
