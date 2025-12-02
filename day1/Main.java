@@ -1,3 +1,5 @@
+package day1;
+
 import java.util.List;
 
 public class Main {
@@ -6,7 +8,7 @@ public class Main {
     }
 
     public static void run() {
-        List<String> movements = ReadInput.readFile("input.txt");
+        List<String> movements = ReadInput.readFile("inputs/day1.txt");
         Safe safe = new Safe(50, movements);          
 
         int exactZeroCount = safe.calculateExactZeroes();
