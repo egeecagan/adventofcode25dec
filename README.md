@@ -1,20 +1,48 @@
-# advent of code 2025 – solutions 🎄
+# Advent of Code 2025 – Solutions 🎄
 
-- these are my solutions for 2025 december advent of code problems
-- to try them using your own input use javac `dayx/*.java` and then run using `java dayx.Main`
-- if it is python use `python3 dayn.py`
+This repository contains my personal solutions for **Advent of Code 2025**. All solutions are implemented either in **Java** or **Python**, depending on the day. Each solution is written with readability and clarity in mind so that I can reference them later or showcase them as part of my portfolio.
 
-## day 1 – ✔️ done
+Feel free to clone the repository and run any day's solution with your own input files.
 
-- **language:** java
-- **status:** both parts are solved
+---
 
-## day 2 - ✔️ done
+## 🚀 How to Run the Solutions
 
-- **language:** java
-- **status:** both parts are solved
+### **Java Solutions**
 
-## day 3 - ✔️ done
+Some days are implemented in Java. To compile and run them:
 
-- **language:** python
-- **status:** both parts are solved
+```bash
+javac dayX/*.java
+java dayX.Main
+```
+
+Replace `dayX` with the appropriate folder (e.g., `day1`, `day2`).
+
+### **Python Solutions**
+
+Some days are implemented in Python. To run them:
+
+```bash
+python3 dayN/dayN.py
+```
+
+Replace `dayN.py` with the appropriate file (e.g., `day3.py`).
+
+---
+
+### **✔️ Day 1**
+
+* **Language:** Java
+* **Status:** Part 1 and Part 2 solved
+
+### **✔️ Day 2**
+
+* **Language:** Java
+* **Status:** Part 1 and Part 2 solved
+
+### **✔️ Day 3**
+
+* **Language:** Python
+* **Status:** Part 1 and Part 2 solved
+
