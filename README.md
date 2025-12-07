@@ -6,15 +6,15 @@
 
 ## day 1 – ✔️ done
 
-**language:** java
-**status:** both parts are solved
+- **language:** java
+- **status:** both parts are solved
 
 ## day 2 - ✔️ done
 
-**language:** java
-**status:** both parts are solved
+- **language:** java
+- **status:** both parts are solved
 
 ## day 3 - ✔️ done
 
-**language:** python
-**status:** both parts are solved
+- **language:** python
+- **status:** both parts are solved
