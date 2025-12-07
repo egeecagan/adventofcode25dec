@@ -6,7 +6,7 @@ Feel free to clone the repository and run any day's solution with your own input
 
 ---
 
-## 🚀 How to Run the Solutions
+## How to Run the Solutions
 
 ### **Java Solutions**
 
